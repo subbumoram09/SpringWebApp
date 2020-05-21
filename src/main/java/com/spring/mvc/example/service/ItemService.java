@@ -9,11 +9,11 @@ import com.spring.mvc.example.model.Items;
 public class ItemService 
 {
 	@Autowired
-	private ItemDAO itemDAOImpl;
+	//private ItemDAO itemDAOImpl;
 	
 	public boolean addedItem(Items item)
 	{
-		itemDAOImpl.save(item);
+		//itemDAOImpl.save(item);
 		if(item != null)
 		{
 			return true;
