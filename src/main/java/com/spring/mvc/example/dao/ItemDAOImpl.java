@@ -10,7 +10,7 @@ import com.spring.mvc.example.utils.HibernateUtil;
 @Repository
 public class ItemDAOImpl implements ItemDAO
 {
-	private static SessionFactory factory = HibernateUtil.getSessionfactory();
+	/*private static SessionFactory factory = HibernateUtil.getSessionfactory();
 	@Override
 	public void save(Object o) 
 	{
@@ -29,5 +29,5 @@ public class ItemDAOImpl implements ItemDAO
 		session.update(o);
 		tx.commit();
 		session.close();
-	}
+	}*/
 }
